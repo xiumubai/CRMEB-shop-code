@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/index/visualization/components/adsRecommend"],{"54c3":function(t,n,e){},6237:function(t,n,e){"use strict";var a=e("54c3"),i=e.n(a);i.a},"6b26":function(t,n,e){"use strict";(function(t){Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var a=e("c9cb"),i=getApp(),o={name:"adsRecommend",props:{dataConfig:{type:Object,default:function(){}}},watch:{dataConfig:{immediate:!0,handler:function(t,n){t&&(this.recommendList=t.imgList.list,this.isShow=t.isShow.val)}}},data:function(){return{recommendList:[],name:this.$options.name,isIframe:i.globalData.isIframe,isShow:!0}},created:function(){},mounted:function(){},methods:{goDetail:function(n){(0,a.goPage)(n).then((function(e){t.navigateTo({url:n.info[0].value})}))}}};n.default=o}).call(this,e("543d")["default"])},"7fa9":function(t,n,e){"use strict";e.r(n);var a=e("6b26"),i=e.n(a);for(var o in a)"default"!==o&&function(t){e.d(n,t,(function(){return a[t]}))}(o);n["default"]=i.a},"9ac8":function(t,n,e){"use strict";var a;e.d(n,"b",(function(){return i})),e.d(n,"c",(function(){return o})),e.d(n,"a",(function(){return a}));var i=function(){var t=this,n=t.$createElement,e=(t._self._c,t.isIframe&&!t.recommendList.length?t.$t("广告位"):null);t.$mp.data=Object.assign({},{$root:{m0:e}})},o=[]},d5b6:function(t,n,e){"use strict";e.r(n);var a=e("9ac8"),i=e("7fa9");for(var o in i)"default"!==o&&function(t){e.d(n,t,(function(){return i[t]}))}(o);e("6237");var c,u=e("f0c5"),r=Object(u["a"])(i["default"],a["b"],a["c"],!1,null,null,null,!1,a["a"],c);n["default"]=r.exports}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'pages/index/visualization/components/adsRecommend-create-component',
+    {
+        'pages/index/visualization/components/adsRecommend-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("d5b6"))
+        })
+    },
+    [['pages/index/visualization/components/adsRecommend-create-component']]
+]);

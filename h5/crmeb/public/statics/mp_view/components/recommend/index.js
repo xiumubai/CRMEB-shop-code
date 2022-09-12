@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/recommend/index"],{3340:function(t,n,e){"use strict";var u;e.d(n,"b",(function(){return a})),e.d(n,"c",(function(){return i})),e.d(n,"a",(function(){return u}));var a=function(){var t=this,n=t.$createElement,e=(t._self._c,t.$t("热门推荐")),u=t.$t("￥"),a=t.__map(t.hostProduct,(function(n,e){var u=t.__get_orig(n),a=n.activity&&"1"===n.activity.type?t.$t("秒杀"):null,i=n.activity&&"2"===n.activity.type?t.$t("砍价"):null,c=n.activity&&"3"===n.activity.type?t.$t("拼团"):null;return{$orig:u,m1:a,m2:i,m3:c}}));t.$mp.data=Object.assign({},{$root:{m0:e,m4:u,l0:a}})},i=[]},8084:function(t,n,e){"use strict";e.r(n);var u=e("3340"),a=e("9a52");for(var i in a)"default"!==i&&function(t){e.d(n,t,(function(){return a[t]}))}(i);e("8ce4");var c,r=e("f0c5"),o=Object(r["a"])(a["default"],u["b"],u["c"],!1,null,"174ced20",null,!1,u["a"],c);n["default"]=o.exports},"8ce4":function(t,n,e){"use strict";var u=e("e069"),a=e.n(u);a.a},"9a52":function(t,n,e){"use strict";e.r(n);var u=e("a333"),a=e.n(u);for(var i in u)"default"!==i&&function(t){e.d(n,t,(function(){return u[t]}))}(i);n["default"]=a.a},a333:function(t,n,e){"use strict";(function(t){Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var u=e("26cb"),a=e("c9cb"),i=c(e("cf74"));function c(t){return t&&t.__esModule?t:{default:t}}var r={computed:(0,u.mapGetters)(["uid"]),props:{hostProduct:{type:Array,default:function(){return[]}}},mixins:[i.default],data:function(){return{}},methods:{goDetail:function(n){(0,a.goShopDetail)(n,this.uid).then((function(e){t.navigateTo({url:"/pages/goods_details/index?id=".concat(n.id)})}))}}};n.default=r}).call(this,e("543d")["default"])},e069:function(t,n,e){}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/recommend/index-create-component',
+    {
+        'components/recommend/index-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("8084"))
+        })
+    },
+    [['components/recommend/index-create-component']]
+]);

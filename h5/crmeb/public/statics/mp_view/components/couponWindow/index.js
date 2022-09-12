@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/couponWindow/index"],{"4c51":function(t,n,e){"use strict";e.r(n);var u=e("50c4"),o=e.n(u);for(var c in u)"default"!==c&&function(t){e.d(n,t,(function(){return u[t]}))}(c);n["default"]=o.a},"50c4":function(t,n,e){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var u=c(e("cf74")),o=e("d5d8");function c(t){return t&&t.__esModule?t:{default:t}}var r={props:{window:{type:Boolean|String|Number,default:!1},couponList:{type:Array,default:function(){return[]}},couponImage:{type:String,default:""}},mixins:[u.default],data:function(){return{imgHost:o.HTTP_REQUEST_URL}},methods:{close:function(){this.$emit("onColse")}}};n.default=r},8048:function(t,n,e){"use strict";var u=e("c968"),o=e.n(u);o.a},c968:function(t,n,e){},c9eb:function(t,n,e){"use strict";e.r(n);var u=e("ec51"),o=e("4c51");for(var c in o)"default"!==c&&function(t){e.d(n,t,(function(){return o[t]}))}(c);e("8048");var r,i=e("f0c5"),a=Object(i["a"])(o["default"],u["b"],u["c"],!1,null,"711af48e",null,!1,u["a"],r);n["default"]=a.exports},ec51:function(t,n,e){"use strict";var u;e.d(n,"b",(function(){return o})),e.d(n,"c",(function(){return c})),e.d(n,"a",(function(){return u}));var o=function(){var t=this,n=t.$createElement,e=(t._self._c,t.$t("￥")),u=t.$t("购物满"),o=t.$t("减"),c=t.__map(t.couponList,(function(n,e){var u=t.__get_orig(n),o=n.coupon_time?t.$t("领取后"):null,c=n.coupon_time?t.$t("天内可用"):null,r=n.coupon_time||0!==n.end_time?null:t.$t("不限时");return{$orig:u,m3:o,m4:c,m5:r}})),r=t.$t("立即领取");t.$mp.data=Object.assign({},{$root:{m0:e,m1:u,m2:o,l0:c,m6:r}})},c=[]}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/couponWindow/index-create-component',
+    {
+        'components/couponWindow/index-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("c9eb"))
+        })
+    },
+    [['components/couponWindow/index-create-component']]
+]);

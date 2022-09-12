@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/index/visualization/components/activity"],{"79f8":function(t,a,n){"use strict";n.r(a);var e=n("b994"),i=n("aac7");for(var c in i)"default"!==c&&function(t){n.d(a,t,(function(){return i[t]}))}(c);n("f072");var o,r=n("f0c5"),f=Object(r["a"])(i["default"],e["b"],e["c"],!1,null,null,null,!1,e["a"],o);a["default"]=f.exports},aac7:function(t,a,n){"use strict";n.r(a);var e=n("e29c"),i=n.n(e);for(var c in e)"default"!==c&&function(t){n.d(a,t,(function(){return e[t]}))}(c);a["default"]=i.a},b994:function(t,a,n){"use strict";var e;n.d(a,"b",(function(){return i})),n.d(a,"c",(function(){return c})),n.d(a,"a",(function(){return e}));var i=function(){var t=this,a=t.$createElement;t._self._c},c=[]},cffe:function(t,a,n){},e29c:function(t,a,n){"use strict";(function(t){Object.defineProperty(a,"__esModule",{value:!0}),a.default=void 0;var e=n("c9cb"),i=getApp(),c={name:"activity",props:{dataConfig:{type:Object,default:function(){}}},watch:{dataConfig:{immediate:!0,handler:function(t,a){if(t){var n=JSON.parse(JSON.stringify(t.imgList.list));this.activityOne=t.imgList.list[0],n.splice(0,1),this.activity=n,this.isShow=t.isShow.val}}}},data:function(){return{activity:[],activityOne:{},name:this.$options.name,isShow:!0,isIframe:i.globalData.isIframe}},created:function(){},methods:{gopage:function(a){(0,e.goPage)().then((function(n){-1!=a.indexOf("http")||(["/pages/goods_cate/goods_cate","/pages/order_addcart/order_addcart","/pages/user/index"].indexOf(a),t.navigateTo({url:a}))}))}}};a.default=c}).call(this,n("543d")["default"])},f072:function(t,a,n){"use strict";var e=n("cffe"),i=n.n(e);i.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'pages/index/visualization/components/activity-create-component',
+    {
+        'pages/index/visualization/components/activity-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("79f8"))
+        })
+    },
+    [['pages/index/visualization/components/activity-create-component']]
+]);

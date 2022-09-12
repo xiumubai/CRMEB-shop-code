@@ -1,0 +1,39 @@
+{
+  "name": "pcShop",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env MODE=dev nuxt",
+    "build": "cross-env MODE=prod nuxt build",
+    "build:test": "cross-env MODE=test nuxt build",
+    "start": "cross-env MODE=dev nuxt start",
+    "generate": "cross-env MODE=prod nuxt generate",
+    "postinstall": "patch-package"
+  },
+  "bin": "npm run postinstall",
+  "dependencies": {
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/axios": "^5.12.2",
+    "cookie-universal-nuxt": "^2.1.4",
+    "element-theme": "^2.0.1",
+    "element-themex": "^1.0.3",
+    "element-ui": "^2.13.2",
+    "emoji-awesome": "0.0.2",
+    "lodash.debounce": "^4.0.8",
+    "nuxt": "^2.14.0",
+    "nuxt-sass-resources-loader": "^2.0.5",
+    "patch-package": "^6.4.7",
+    "qs": "^6.9.4",
+    "vue-awesome-swiper": "^3.1.3",
+    "vue-clipboard2": "^0.3.1",
+    "vue-layer": "^1.2.1",
+    "vue-qr": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-plugin-component": "^1.1.1",
+    "cross-env": "^7.0.3",
+    "element-theme-chalk": "^2.13.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.2"
+  }
+}

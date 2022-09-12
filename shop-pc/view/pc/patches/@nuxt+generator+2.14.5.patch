@@ -1,0 +1,13 @@
+diff --git a/node_modules/@nuxt/generator/dist/generator.js b/node_modules/@nuxt/generator/dist/generator.js
+index 43b67ce..d9ef358 100644
+--- a/node_modules/@nuxt/generator/dist/generator.js
++++ b/node_modules/@nuxt/generator/dist/generator.js
+@@ -100,7 +100,7 @@ class Generator {
+     this.distPath = this.options.generate.dir;
+     this.distNuxtPath = path__default['default'].join(
+       this.distPath,
+-      utils.isUrl(this.options.build.publicPath) ? '' : this.options.build.publicPath
++      utils.isUrl(this.options.build.publicPath) ? '' : this.options.build.publicPathFolder || this.options.build.publicPath
+     );
+     // Payloads for full static
+     if (this.isFullStatic) {
